@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
 
 body {
+  margin: 0;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -9,7 +10,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-image: url(img/bg.jpeg);
-  background-position: center center;
   font-family: 'Zeyada', cursive;
   overflow: hidden;
 }
@@ -42,12 +42,11 @@ p {
   background-position: center;
   padding: 20px 100px;
   /*  min-width: 800px; */
-
   transform: rotateZ(-5deg);
   box-shadow: 1px 15px 20px 0px rgba(0, 0, 0, 0.5);
-
   position: absolute;
   text-align: center;
+  touch-action: none;
 }
 
 @media (max-width: 768px) {
